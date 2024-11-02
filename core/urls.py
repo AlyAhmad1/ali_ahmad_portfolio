@@ -16,5 +16,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-    path('ali-ahmad-portfolio/', include('portfolio_app.urls')),
+    path('', include('portfolio_app.urls')),
 ]

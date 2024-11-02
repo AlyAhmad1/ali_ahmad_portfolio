@@ -22,12 +22,10 @@
     <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: #f5f6f8">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="#"><span>Al</span>iAhmad</a>
+	      <a class="navbar-brand" href="#">< ALi Ahmad ></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -62,20 +60,41 @@
 	    </div>
 	  </nav>
 	  <section class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
+      <div class="overlay" STYLE="background: rgb(10 156 237);"></div>
+{#      <div class="container">#}
+{#        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">#}
+{#          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">#}
+{#          	<div class="text text-center">#}
+{#          		<span class="subheading">Hey! I am</span>#}
+{#		  				<h1>ALI AHMAD</h1>#}
+{#			  				<h2>I'm a #}
+{#								  <span#}
+{#								     class="txt-rotate"#}
+{#								     data-period="2000"#}
+{#								     data-rotate='[ "Software Eng.", "Automation Eng.","DevOps Eng."]'></span>#}
+{#								</h2>#}
+{#							</div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#      </div>#}
       <div class="container">
-        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-          	<div class="text text-center">
-          		<span class="subheading">Hey! I am</span>
-		  				<h1>ALI AHMAD</h1>
-			  				<h2>I'm a 
-								  <span
-								     class="txt-rotate"
-								     data-period="2000"
-								     data-rotate='[ "Software Eng.", "Automation Eng.","DevOps Eng."]'></span>
-								</h2>
-							</div>
+        <div class="row no-gutters slider-text js-fullheight align-items-center" style="justify-content: space-between;">
+          <div class="col-lg-4">
+              <img
+                  src='{% static 'images/AI_LinkedIn.png' %}'
+                  class="img-fluid rounded-circle"
+                  alt="ALI AHMAD Profile Picture."
+              />
+          </div>
+          <div class="col-lg-6 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text" style="text-align: left;margin-left: 30px;">
+          		<span class="subheading">Hey! my name is</span>
+                    <h1>ALI AHMAD</h1>
+                    <h2>who transforms the ideas into wonders</h2>
+                    <p style="color: #999999 !important;">Energetic and confident software engineer with excellent communication skills and a strong focus on learning from mistakes. I excel in environments that value and encourage growth, and I am eager to apply my skills in a challenging role where I can drive innovation and contribute to impactful projects.</p>
+
+            </div>
             </div>
           </div>
         </div>
@@ -170,10 +189,10 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">2017-2021</span>
-		    					<h2>Bachelor's in Information Technology.</h2>
+                                <h2>Bachelor's in Information Technology.</h2>
 		    					<span class="position">University of Education.</span>
-{#		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
+                                <span class="date"> (2017-2021)</span>
+                                {#		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
 	    					</div>
 	    				</div>
 					  </div>
@@ -185,10 +204,14 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">Jun/2022-Present</span>
-		    					<h2>Python Django Software engineer</h2>
-		    					<span class="position">TenX</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    					<h2>TenX (Python Django Software engineer)</h2>
+                                <span class="date">Jun/2022-Present</span>
+                                <ul>
+                                    <li>Developed and maintained Python-based web applications, APIs, and backend services.</li>
+                                    <li>Spearheaded a project with a cross-functional team to integrate third-party APIs, boosting application capabilities and user experience.</li>
+                                    <li>Worked closely with project managers and stakeholders, and successfully translated complex requirements into actionable technical specifications.</li>
+                                    <li>Integrated third-party APIs and libraries to enhance application capabilities and user experience.</li>
+                                </ul>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -196,80 +219,82 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">Aug/2021-Jun/2022</span>
-		    					<h2>Python Developer</h2>
-		    					<span class="position">Aitomation - Process Automation</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <h2>Aitomation - Process Automation (Python Developer)</h2>
+                                <span class="date">Aug/2021-Jun/2022</span>
+                               <ul>
+                                    <li>Developed and maintained full stack Python-based web applications, APIs, and backend services.</li>
+                                </ul>
+
 		    				</div>
 	    				</div>
 					  </div>
 					  <div id="page-3" class= "page three">
 					  	<h2 class="heading">Skills</h2>
                         <div class="text">
-                            <h2 class="heading">Front-End</h2>
+                            <h2 class="mb-0 heading">Front-End</h2>
                         </div>
 
-					  	<div class="row progress-circle mb-5">
+					  	<div class="row progress-circle">
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">React</h2>
-						      </div>
-						    </div>
-
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Bootstrap</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Jquery</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">React</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">JS</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Bootstrap</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">HTML</h2>
-						      </div>
-						    </div>
-
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">CSS</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Jinja </h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">JS-Charts</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Jquery</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">D3</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">JS</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">HTML</h2>
+						      </div>
+						    </div>
+
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">CSS</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Jinja </h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">JS-Charts</h2>
+						      </div>
+						    </div>
+
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">D3</h2>
 						      </div>
 						    </div>
 					  	</div>
 
                         <div class="text">
-                            <h2 class="heading">Backend</h2>
+                            <h2 class="mb-0 heading">Backend</h2>
                         </div>
 
 					  	<div class="row progress-circle">
-{#					  		<div class="col-lg-3 mb-4">#}
-{#						      <div class="bg-white rounded-lg shadow p-4">#}
-{#						        <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>#}
+{#					  		<div class="col-lg-3  ">#}
+{#						      <div class="bg-white rounded-lg shadow  ">#}
+{#						        <h2 class="h5   text-center  ">CSS</h2>#}
 
 						        <!-- Progress bar 1 -->
 {#						        <div class="progress mx-auto" data-value='90'>#}
@@ -280,7 +305,7 @@
 {#                                    <span class="progress-bar border-primary"></span>#}
 {#						          </span>#}
 {#						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">#}
-{#						            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>#}
+{#						            <div class="h2  ">90<sup class="small">%</sup></div>#}
 {#						          </div>#}
 {#						        </div>#}
 						        <!-- END -->
@@ -288,178 +313,178 @@
 						        <!-- Demo info -->
 {#						        <div class="row text-center mt-4">#}
 {#						          <div class="col-6 border-right">#}
-{#						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>#}
+{#						            <div class="h4   mb-0">28%</div><span class="small text-gray">Last week</span>#}
 {#						          </div>#}
 {#						          <div class="col-6">#}
-{#						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>#}
+{#						            <div class="h4   mb-0">60%</div><span class="small text-gray">Last month</span>#}
 {#						          </div>#}
 {#						        </div>#}
 						        <!-- END -->
 {#						      </div>#}
 {#						    </div>#}
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Python</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Python</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">GenAI</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">GenAI</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Django</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Django</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">DRF</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">DRF</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Flask</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Flask</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">FastAPI</h2>
-						      </div>
-						    </div>
-
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">CI/CD</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Docker</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">FastAPI</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Redis</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">CI/CD</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Celery</h2>
-						      </div>
-						    </div>
-
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Kafka</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">AWS</h2>
-						      </div>
-						    </div>
-    					    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">VPS</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Docker</h2>
 						      </div>
 						    </div>
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">Swagger</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Redis</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">MonoLith</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Celery</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">EDA</h2>
+
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Kafka</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center">MicroServices</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">AWS</h2>
+						      </div>
+						    </div>
+    					    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">VPS</h2>
+						      </div>
+						    </div>
+
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">Swagger</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">MonoLith</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">EDA</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow  ">
+						        <h2 class="h5   text-center">MicroServices</h2>
 						      </div>
 						    </div>
                         </div>
 
                         <div class="text">
-                            <h2 class="heading">DataStack</h2>
+                            <h2 class="mb-0 heading">DataStack</h2>
                         </div>
-					  	<div class="row progress-circle mb-5">
+					  	<div class="row progress-circle">
 
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Redis</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Redis</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">MySQL</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">MySQL</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">PSQL</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">PSQL</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Vertica</h2>
-						      </div>
-						    </div>
-                        </div>
-
-
-                        <div class="text">
-                            <h2 class="heading">Integrations</h2>
-                        </div>
-
-					  	<div class="row progress-circle mb-5">
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Googl API's</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Twilio API's</h2>
-						      </div>
-						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Email Services</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Vertica</h2>
 						      </div>
 						    </div>
                         </div>
 
 
                         <div class="text">
-                            <h2 class="heading">Automation</h2>
+                            <h2 class="mb-0 heading">Integrations</h2>
                         </div>
 
-					  	<div class="row progress-circle mb-5">
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Selenium</h2>
+					  	<div class="row progress-circle">
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Googl API's</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">BS4</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Twilio API's</h2>
 						      </div>
 						    </div>
-						    <div class="col-lg-3 mb-4">
-						      <div class="bg-white rounded-lg shadow  p-4">
-						        <h2 class="h5 font-weight-bold text-center">Scrappy</h2>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Email Services</h2>
+						      </div>
+						    </div>
+                        </div>
+
+
+                        <div class="text">
+                            <h2 class="mb-0 heading">Automation</h2>
+                        </div>
+
+					  	<div class="row progress-circle">
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Selenium</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">BS4</h2>
+						      </div>
+						    </div>
+						    <div class="col-lg-3  ">
+						      <div class="bg-white rounded-lg shadow   ">
+						        <h2 class="h5   text-center">Scrappy</h2>
 						      </div>
 						    </div>
                         </div>
@@ -541,7 +566,7 @@
 					    	</div>
 					    	<div class="text pl-3">
 {#		    					<span class="date">2014-2015</span>#}
-		    					<h2>API development in Python Django (Udemy).</h2>
+		    					<h2 style="color: #999999;">API development in Python Django (Udemy).</h2>
 {#		    					<span class="position">Cambridge University</span>#}
 {#		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
 	    					</div>
@@ -551,7 +576,7 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<h2>Python Django Full stack development (Udemy).</h2>
+		    					<h2 style="color: #999999;">Python Django Full stack development (Udemy).</h2>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -559,7 +584,7 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<h2>Django A-Z Build & Deploy Web Project with Python & Django (Udemy).</h2>
+		    					<h2 style="color: #999999;">Django A-Z Build & Deploy Web Project with Python & Django (Udemy).</h2>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -567,7 +592,7 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<h2>Front End Fundamentals (Pirple).</h2>
+		    					<h2 style="color: #999999;">Front End Fundamentals (Pirple).</h2>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -575,7 +600,7 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<h2>Basics Of Data Science (Coursera).</h2>
+		    					<h2 style="color: #999999;">Basics Of Data Science (Coursera).</h2>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -583,7 +608,7 @@
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<h2>Developer Student Club Lead (Google).</h2>
+		    					<h2 style="color: #999999;">Developer Student Club Lead (Google).</h2>
 		    				</div>
 	    				</div>
 					  </div>
@@ -732,7 +757,7 @@
     				</div>
     			</div>
     			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/work-4.jpg' %});">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/Amazon_product_ranking.jpg' %});">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Amazon Product Ranking</a></h3>
@@ -746,7 +771,7 @@
     				</div>
     			</div>
     			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/work-5.jpg' %});">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/CREDIT_BUREAU.jpg' %});">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">CreditBureau App</a></h3>
@@ -757,7 +782,7 @@
     				</div>
     			</div>
     			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/work-6.jpg' %});">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({% static 'images/BOT.jpg' %});">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Automation BOT.</a></h3>
@@ -898,7 +923,7 @@
           		</div>
           		<div>
 	          		<h3 class="mb-4">Address</h3>
-		            <p>Lahore, Pakistan.</p>
+                    <p><a href="">Lahore, Pakistan. </a></p>
 		          </div>
 	          </div>
           </div>
